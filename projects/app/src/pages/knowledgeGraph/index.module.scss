@@ -1,0 +1,13 @@
+.scroll {
+  &::-webkit-scrollbar-thumb {
+    background: #d7000f !important;
+    transition: background 1s;
+  }
+  &::-webkit-scrollbar {
+    background: rgb(215, 0, 15, 0.2);
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #d7000f !important;
+  }
+}

@@ -1,0 +1,22 @@
+.statusAnimation {
+  animation: statusBox 0.8s linear infinite alternate;
+}
+@keyframes statusBox {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.11;
+  }
+}
+.scroll {
+  &::-webkit-scrollbar-thumb {
+    background: #dfe2ea !important;
+    transition: background 1s;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--chakra-colors-gray-300) !important;
+  }
+}

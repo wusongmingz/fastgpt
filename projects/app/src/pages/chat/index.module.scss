@@ -1,0 +1,30 @@
+.newChat {
+  .modelListContainer {
+    height: 0;
+    overflow: hidden;
+  }
+  .modelList {
+    border-radius: 6px;
+  }
+  &:hover {
+    .modelListContainer {
+      height: 60vh;
+    }
+    .modelList {
+      box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.05);
+      border: 1px solid #dee0e2;
+    }
+  }
+}
+.scroll {
+  &::-webkit-scrollbar-thumb {
+    background: #d7000f !important;
+    transition: background 1s;
+  }
+  &::-webkit-scrollbar {
+    background: rgb(215, 0, 15, 0.2);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #d7000f !important;
+  }
+}
